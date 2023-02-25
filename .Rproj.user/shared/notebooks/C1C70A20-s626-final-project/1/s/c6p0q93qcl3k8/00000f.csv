@@ -1,0 +1,12 @@
+"0","y = weather.df$apparent_temperature"
+"0","X = weather.df %>% dplyr::select(-apparent_temperature) %>% as.matrix"
+"0","n = dim(X)[1]"
+"0","p = dim(X)[2]"
+"0","g = n"
+"0","nu0 = 2"
+"0","s20 = 1"
+"0","S = 1000"
+"0","S = 1000"
+"0","Hg = (g / (g + 1)) * X %*% solve(t(X) %*% X) %*% t(X)"
+"2","Error: vector memory exhausted (limit reached?)
+"

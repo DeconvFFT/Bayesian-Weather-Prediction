@@ -1,0 +1,3 @@
+"0","weather.df  <- weather.df %>% "
+"0","  dplyr::select(apparent_temperature,temperature,humidity,visibility, wind_speed, wind_degrees)  "
+"0"," "

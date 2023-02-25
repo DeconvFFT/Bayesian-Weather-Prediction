@@ -1,0 +1,1 @@
+"0","ggpairs(weather.df, cols = c(""apparent_temperature"",""temperature"",""humidity"",""visibility"", ""wind_speed""))"

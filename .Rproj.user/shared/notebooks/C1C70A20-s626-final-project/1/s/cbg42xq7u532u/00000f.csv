@@ -1,0 +1,6 @@
+"0","# create a test matrix:"
+"0","test.df.sample <- weather.df1[-rand_ind, ] %>% dplyr::select(apparent_temperature,temperature, humidity,wind_speed)"
+"0","rand_ind1 <- sample(nrow(test.df.sample), 300, replace = FALSE) "
+"0","test.df.sample <- test.df.sample[rand_ind1,]"
+"0","test.model.matrix <- model.matrix(apparent_temperature ~ (temperature+ humidity+ wind_speed)^2+ temperature:humidity:wind_speed, test.df.sample)[, c(2,6,7,8)]"
+"0",""

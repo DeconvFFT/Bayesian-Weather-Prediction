@@ -1,0 +1,2 @@
+"0","library(GGally)"
+"0","ggpairs(weather.df, columns = c(""apparent_temperature"",""temperature"",""humidity"",""wind_speed"",""visibility"",""wind_degrees"",""pressure""))"

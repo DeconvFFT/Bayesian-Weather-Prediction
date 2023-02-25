@@ -1,0 +1,1 @@
+"0","weather <- read.csv(""data/weatherHistory.csv"", header=TRUE)"
